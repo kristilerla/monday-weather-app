@@ -3,6 +3,12 @@ import React from "react";
 export default function Weather(){
 
     return (
-        "The weather in Oslo is nice"
-    );
+       
+   
+    <form>
+<input type="text" placeholder="Enter a city" />
+<button type="submit">Get weather</button>
+
+    </form>
+     );
 }
