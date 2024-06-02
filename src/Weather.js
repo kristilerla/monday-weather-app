@@ -1,6 +1,6 @@
 import React, {useState} from "react";
+import WeatherInformation from "./WeatherInformation";
 
-import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
 import "./Weather.css";
 
@@ -61,7 +61,7 @@ className="btn btn-primary w-100" />
 
   </div>
             </form>
-            <WeatherInfo data={weatherData}/>
+            <WeatherInformation data={weatherData}/>
           
           </div>
     
